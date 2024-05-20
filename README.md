@@ -40,10 +40,10 @@ This code is designed to perform real-time facial recognition and age-gender det
 1. Initialization: The code initializes video capture and sets up parameters for the camera feed.
 2. Face Detection: It continuously captures frames from the camera feed and detects faces using the Haar Cascade classifier.
 3. Facial Recognition:
-  - For each detected face, it preprocesses the image and passes it through a pre-trained Keras model for facial recognition.
-  - It draws a rectangle around the detected face and displays the predicted identity on the screen.
+   - For each detected face, it preprocesses the image and passes it through a pre-trained Keras model for facial recognition.
+   - It draws a rectangle around the detected face and displays the predicted identity on the screen.
 4. Age-Gender Detection:
-  - It utilizes pre-trained Caffe models for age and gender estimation.
-  - It preprocesses the face image and feeds it to the age and gender estimation models.
-  - The predicted age and gender labels are displayed alongside the detected face.
+   - It utilizes pre-trained Caffe models for age and gender estimation.
+   - It preprocesses the face image and feeds it to the age and gender estimation models.
+   - The predicted age and gender labels are displayed alongside the detected face.
 5. User Interaction: The process continues until the user presses 'q' to quit the application.
